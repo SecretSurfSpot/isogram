@@ -39,7 +39,7 @@ public class IsogramCheckerTest {
         assertTrue(iso.isIsogram("subdermatoglyphic"));
     }
 
-    // @Ignore("Remove to run test")
+    //@Ignore("Remove to run test")
     @Test
     public void testCaseInsensitive() {
         IsogramChecker iso = new IsogramChecker();
@@ -53,14 +53,14 @@ public class IsogramCheckerTest {
         assertFalse(iso.isIsogram("alphAbet"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testIsogramWithHyphen() {
         IsogramChecker iso = new IsogramChecker();
         assertTrue(iso.isIsogram("thumbscrew-japingly"));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testIsogramWithDuplicatedHyphen() {
         IsogramChecker iso = new IsogramChecker();
