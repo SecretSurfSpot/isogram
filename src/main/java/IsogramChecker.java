@@ -1,23 +1,24 @@
 class IsogramChecker {
 
-    boolean isIsogram(String phrase) {
-      char [] phraseCharArray = phrase.toCharArray();
+    public final boolean isIsogram(String phrase) {
+      String phraseLCase = phrase.toLowerCase();
+      char [] phraseLCaseArr = phraseLCase.toCharArray();
       int count = 0;
-      System.out.println("phrase is: " + phraseCharArray);
-      System.out.println(phraseCharArray);
+      System.out.println("phrase is: " + phraseLCaseArr);
+      System.out.println(phraseLCaseArr);
 
-      for (int i = 0; i < phraseCharArray.length; i++) {
-        for (int j = i + 1; j < phraseCharArray.length; j++) {
-          if (isDuplicate(phraseCharArray[i], phraseCharArray[j])) {
+      for (int i = 0; i < phraseLCaseArr.length; i++) {
+        for (int j = i + 1; j < phraseLCaseArr.length; j++) {
+          if (isDuplicate(phraseLCaseArr[i], phraseLCaseArr[j])) {
             count++;
             break;
           }
         }
       }
       if (count > 0) {
-        return true;
+        return false;
       } else {
-          return false;
+        return true;
       }
     }
 

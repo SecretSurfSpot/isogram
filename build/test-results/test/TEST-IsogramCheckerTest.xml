@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="IsogramCheckerTest" tests="12" skipped="11" failures="0" errors="0" timestamp="2019-02-08T14:01:18" hostname="Andrews-MacBook-Pro.local" time="0.017">
+<testsuite name="IsogramCheckerTest" tests="12" skipped="3" failures="0" errors="0" timestamp="2019-02-08T14:23:34" hostname="Andrews-MacBook-Pro.local" time="0.016">
   <properties/>
-  <testcase name="testDuplicateEndAlphabet" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testDuplicateEndAlphabet" classname="IsogramCheckerTest" time="0.011"/>
   <testcase name="testIsogramWithDuplicatedHyphen" classname="IsogramCheckerTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testCaseInsensitive" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testLowercaseIsogram" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testNotIsogram" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testCaseInsensitive" classname="IsogramCheckerTest" time="0.0"/>
+  <testcase name="testLowercaseIsogram" classname="IsogramCheckerTest" time="0.001"/>
+  <testcase name="testNotIsogram" classname="IsogramCheckerTest" time="0.0"/>
   <testcase name="testMadeUpNameThatIsAnIsogram" classname="IsogramCheckerTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testEmptyString" classname="IsogramCheckerTest" time="0.013"/>
+  <testcase name="testEmptyString" classname="IsogramCheckerTest" time="0.0"/>
   <testcase name="testIsogramWithHyphen" classname="IsogramCheckerTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testSameFirstAndLast" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testDuplicatMixedCase" classname="IsogramCheckerTest" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase name="testMediumLongIsogram" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testDuplicatedCharacterInTheMiddleIsNotIsogram" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[phrase is: [C@4e195884
-hih
+  <testcase name="testSameFirstAndLast" classname="IsogramCheckerTest" time="0.0"/>
+  <testcase name="testDuplicatMixedCase" classname="IsogramCheckerTest" time="0.0"/>
+  <testcase name="testMediumLongIsogram" classname="IsogramCheckerTest" time="0.0"/>
+  <testcase name="testDuplicatedCharacterInTheMiddleIsNotIsogram" classname="IsogramCheckerTest" time="0.0"/>
+  <system-out><![CDATA[phrase is: [C@6aa229fd
+zzyzx
+phrase is: [C@5bcfde2c
+alphabet
+phrase is: [C@546a8f4b
+isogram
+phrase is: [C@779ebbb3
+eleven
+phrase is: [C@216dc28
+
+phrase is: [C@270d5cf8
+angola
+phrase is: [C@271d9f85
+alphabet
+phrase is: [C@25dcfbf6
+subdermatoglyphic
+phrase is: [C@119f84f9
+accentor
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
