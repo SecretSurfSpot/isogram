@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="IsogramCheckerTest" tests="12" skipped="1" failures="0" errors="0" timestamp="2019-02-08T14:35:02" hostname="Andrews-MacBook-Pro.local" time="0.029">
+<testsuite name="IsogramCheckerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-02-08T14:39:45" hostname="Andrews-MacBook-Pro.local" time="0.027">
   <properties/>
-  <testcase name="testDuplicateEndAlphabet" classname="IsogramCheckerTest" time="0.011"/>
-  <testcase name="testIsogramWithDuplicatedHyphen" classname="IsogramCheckerTest" time="0.006"/>
+  <testcase name="testDuplicateEndAlphabet" classname="IsogramCheckerTest" time="0.009"/>
+  <testcase name="testIsogramWithDuplicatedHyphen" classname="IsogramCheckerTest" time="0.005"/>
   <testcase name="testCaseInsensitive" classname="IsogramCheckerTest" time="0.001"/>
-  <testcase name="testLowercaseIsogram" classname="IsogramCheckerTest" time="0.0"/>
-  <testcase name="testNotIsogram" classname="IsogramCheckerTest" time="0.0"/>
-  <testcase name="testMadeUpNameThatIsAnIsogram" classname="IsogramCheckerTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="testLowercaseIsogram" classname="IsogramCheckerTest" time="0.001"/>
+  <testcase name="testNotIsogram" classname="IsogramCheckerTest" time="0.001"/>
+  <testcase name="testMadeUpNameThatIsAnIsogram" classname="IsogramCheckerTest" time="0.002"/>
   <testcase name="testEmptyString" classname="IsogramCheckerTest" time="0.001"/>
   <testcase name="testIsogramWithHyphen" classname="IsogramCheckerTest" time="0.002"/>
-  <testcase name="testSameFirstAndLast" classname="IsogramCheckerTest" time="0.0"/>
-  <testcase name="testDuplicatMixedCase" classname="IsogramCheckerTest" time="0.0"/>
+  <testcase name="testSameFirstAndLast" classname="IsogramCheckerTest" time="0.001"/>
+  <testcase name="testDuplicatMixedCase" classname="IsogramCheckerTest" time="0.001"/>
   <testcase name="testMediumLongIsogram" classname="IsogramCheckerTest" time="0.001"/>
-  <testcase name="testDuplicatedCharacterInTheMiddleIsNotIsogram" classname="IsogramCheckerTest" time="0.001"/>
-  <system-out><![CDATA[phrase is: [C@1add28f7
+  <testcase name="testDuplicatedCharacterInTheMiddleIsNotIsogram" classname="IsogramCheckerTest" time="0.0"/>
+  <system-out><![CDATA[phrase is: [C@5be9f71a
 zzyzx
 word is: zzyzx
 word is: zzyzx
 word is: zzyzx
 word is: zzyzx
 word is: zzyzx
-phrase is: [C@4640b0d4
+phrase is: [C@7ff349ab
 six-year-old
 word is: six-year-old
 word is: six-year-old
@@ -38,7 +36,7 @@ char is: -
 word is: six-year-old
 word is: six-year-old
 word is: six-year-old
-phrase is: [C@28b9154e
+phrase is: [C@593f3954
 alphabet
 word is: alphabet
 word is: alphabet
@@ -48,7 +46,7 @@ word is: alphabet
 word is: alphabet
 word is: alphabet
 word is: alphabet
-phrase is: [C@6be2ef4c
+phrase is: [C@28b9154e
 isogram
 word is: isogram
 word is: isogram
@@ -57,7 +55,7 @@ word is: isogram
 word is: isogram
 word is: isogram
 word is: isogram
-phrase is: [C@23e160ab
+phrase is: [C@6be2ef4c
 eleven
 word is: eleven
 word is: eleven
@@ -65,9 +63,36 @@ word is: eleven
 word is: eleven
 word is: eleven
 word is: eleven
-phrase is: [C@143800a4
+phrase is: [C@23e160ab
+emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+char is:  
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+char is:  
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+word is: emily jung schwartzkopf
+phrase is: [C@334081a
 
-phrase is: [C@4cd5f1b2
+phrase is: [C@63c77e57
 thumbscrew-japingly
 word is: thumbscrew-japingly
 word is: thumbscrew-japingly
@@ -89,7 +114,7 @@ word is: thumbscrew-japingly
 word is: thumbscrew-japingly
 word is: thumbscrew-japingly
 word is: thumbscrew-japingly
-phrase is: [C@48dd71d1
+phrase is: [C@1f2375ec
 angola
 word is: angola
 word is: angola
@@ -97,7 +122,7 @@ word is: angola
 word is: angola
 word is: angola
 word is: angola
-phrase is: [C@22c2133
+phrase is: [C@37efba9b
 alphabet
 word is: alphabet
 word is: alphabet
@@ -107,7 +132,7 @@ word is: alphabet
 word is: alphabet
 word is: alphabet
 word is: alphabet
-phrase is: [C@56c52cf2
+phrase is: [C@143800a4
 subdermatoglyphic
 word is: subdermatoglyphic
 word is: subdermatoglyphic
@@ -126,7 +151,7 @@ word is: subdermatoglyphic
 word is: subdermatoglyphic
 word is: subdermatoglyphic
 word is: subdermatoglyphic
-phrase is: [C@35fe1ff9
+phrase is: [C@4cd5f1b2
 accentor
 word is: accentor
 word is: accentor

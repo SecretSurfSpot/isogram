@@ -11,6 +11,11 @@ class IsogramChecker {
         System.out.println("word is: " + phraseLCase);
         for (int j = i + 1; j < phraseLCaseArr.length; j++) {
 
+          if (hasSpace(phraseLCaseArr[i])) {
+            System.out.println("char is: " + phraseLCaseArr[i]);
+            break;
+          }
+
           if (hasHyphen(phraseLCaseArr[i])) {
             System.out.println("char is: " + phraseLCaseArr[i]);
             break;
@@ -36,6 +41,11 @@ class IsogramChecker {
 
     boolean hasHyphen(Character char_i) {
       boolean result = (char_i == '-') ? true : false;
+      return result;
+    }
+
+    boolean hasSpace(Character char_i) {
+      boolean result = (char_i == ' ') ? true : false;
       return result;
     }
 }
