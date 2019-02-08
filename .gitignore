@@ -1,0 +1,8 @@
+# ignore all html files
+*.html
+
+# ignore all css files
+*.css
+
+# ignore all js files
+*.js
