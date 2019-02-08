@@ -4,34 +4,24 @@ class IsogramChecker {
       String phraseLCase = phrase.toLowerCase();
       char [] phraseLCaseArr = phraseLCase.toCharArray();
       int count = 0;
-      System.out.println("phrase is: " + phraseLCaseArr);
-      System.out.println(phraseLCaseArr);
 
       for (int i = 0; i < phraseLCaseArr.length; i++) {
-        System.out.println("word is: " + phraseLCase);
         for (int j = i + 1; j < phraseLCaseArr.length; j++) {
-
           if (hasSpace(phraseLCaseArr[i])) {
-            System.out.println("char is: " + phraseLCaseArr[i]);
             break;
           }
-
           if (hasHyphen(phraseLCaseArr[i])) {
-            System.out.println("char is: " + phraseLCaseArr[i]);
             break;
           }
-
           if (isDuplicate(phraseLCaseArr[i], phraseLCaseArr[j])) {
             count++;
             break;
           }
         }
       }
-      if (count > 0) {
-        return false;
-      } else {
-        return true;
-      }
+
+      boolean result = (count > 0) ? false : true;
+      return result;
     }
 
     boolean isDuplicate(Character char_i, Character char_j) {
