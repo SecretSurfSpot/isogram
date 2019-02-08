@@ -8,7 +8,7 @@ public class IsogramCheckerTest {
     @Test
     public void testEmptyString() {
         IsogramChecker iso = new IsogramChecker();
-        assertTrue(iso.isIsogram(""));
+        assertTrue(iso.isIsogram("hih"));
     }
 
     @Ignore("Remove to run test")
